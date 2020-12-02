@@ -98,7 +98,8 @@ public class AngelicBlock extends BaseSTBBlock {
 
     @Override
     public boolean onEntityExplode(EntityExplodeEvent event) {
-        return false; // immune to explosions
+        // immune to explosions
+        return false;
     }
 
     @Override
