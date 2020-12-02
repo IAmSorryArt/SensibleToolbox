@@ -137,7 +137,8 @@ public class VacuumModule extends DirectionalItemRouterModule {
                 }, (long) (dist / 3));
             }
         }
-        return false; // any work done is deferred
+        // any work done is deferred
+        return false;
     }
 
     private boolean rightDirection(Location itemLoc, Location rtrLoc) {
