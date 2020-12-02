@@ -25,8 +25,8 @@ import io.github.thebusybiscuit.sensibletoolbox.utils.STBUtil;
 
 public class PVCell extends BaseSTBItem {
 
-    public static final int MAX_LIFESPAN = 24000 * 9; // 9 minecraft days; 3 real hours
-    // private static final int MAX_LIFESPAN = 2000; // 100 real seconds (testing)
+    // 9 minecraft days; 3 real hours
+    public static final int MAX_LIFESPAN = 24000 * 9;
 
     private int lifespan;
 
